@@ -1,4 +1,8 @@
-SELECT 
+/*
+ * Calculates the hashtags that are commonly used with the hashtag #coronavirus
+ */
+
+/*SELECT 
 tag,
 count(*) as count
 FROM (SELECT t1.data->>'id' as id, 
@@ -12,3 +16,4 @@ FROM (SELECT t1.data->>'id' as id,
 GROUP BY (1)
 ORDER BY count DESC, tag
 LIMIT 1000;
+*/
